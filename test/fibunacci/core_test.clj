@@ -2,10 +2,6 @@
   (:require [clojure.test :refer :all]
             [fibonacci.core :refer :all]))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 1 1))))
-
 (deftest fibonacci-0
 	(testing "returns 0 for Fibonacci of 0"
 		(is (= 0 (fib 0 )))))
